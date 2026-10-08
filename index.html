@@ -32,6 +32,48 @@ pre{margin:0;font-family:Consolas,Menlo,monospace;font-size:1rem;line-height:1.5
 </main>
 <script>
 const tasks = {
+"1": `использовать Робот
+алг
+нач
+нц 3 раз
+закрасить
+нц 2 раз
+вниз
+закрасить
+кц
+нц 2 раз
+вниз
+кц
+закрасить
+вниз
+закрасить
+нц 2 раз
+вниз
+кц
+закрасить
+нц 7 раз
+вверх
+кц
+нц 2 раз
+вправо
+кц
+кц
+закрасить
+нц 2 раз
+вниз
+закрасить
+кц
+нц 2 раз
+вниз
+кц
+закрасить
+вниз
+закрасить
+нц 2 раз
+вниз
+кц
+закрасить
+кон`,
 "2": `использовать Робот
 алг
 нач
@@ -215,7 +257,7 @@ const tasks = {
 кон`
 };
 
-const order = ["2", "3", "3.1", "4"];
+const order = ["1", "2", "3", "3.1", "4"];
 const tabs = document.getElementById("tabs");
 const box = document.getElementById("box");
 
@@ -261,7 +303,7 @@ order.forEach(n => {
   tabs.appendChild(b);
 });
 
-show("3.1");
+show("1");
 </script>
 </body>
 </html>
